@@ -5,7 +5,7 @@
 ;; fnlfmt: skip
 (nyoom! :completion
         cmp                  ; the ultimate code completion backend
-        ;;copilot            ; the code completion of the future
+        copilot            ; the code completion of the future
         ;;fzf-lua            ; TODO a search engine for love and life
         (telescope +native)  ; the search engine of the future
 
@@ -62,30 +62,30 @@
 
         :lang
         cc                   ; C > C++ == 1
-        clojure              ; java with a lisp
+        ;;clojure              ; java with a lisp
         common-lisp          ; if you've seen one lisp, you've seen them all
-        csharp               ; java but with linq
-        java                 ; the poster child for carpal tunnel syndrome
-        julia                ; a better, faster MATLAB
+        ;;csharp               ; java but with linq
+        ;;java                 ; the poster child for carpal tunnel syndrome
+        ;julia                ; a better, faster MATLAB
         ;;kotlin             ; FIXME: a better, slicker Java(Script)
         ;;json               ; { "dʒeɪsən":  "Javascript Object Notation" }
         latex                ; writing papers in Neovim has never been so fun
         ;;ledger             ; be audit you can be
         lua                  ; one-based indices? one-based indices
         markdown             ; writing docs for people to ignore
-        nim                  ; python + lisp at the speed of c
+        ;;nim                  ; python + lisp at the speed of c
         (neorg               ; organize your plain life in plain text, the neovim way
           +pretty
           +present
           +export
           +nabla)
         ;;(org +pretty)      ; WIP: organize your plain life in plain text, the emacs way
-        nix                  ; I hereby declare "nix geht mehr!"
+        ;;nix                  ; I hereby declare "nix geht mehr!"
         python               ; beautiful is better than ugly
         rust                 ; Fe2O3.unwrap().unwrap().unwrap().unwrap()
         (sh +fish)           ; she sells {ba,z,fi}sh shells on the C xor
         ;;xml                ; extend my language
-        ;;yaml               ; yet another markup language to enable
+        yaml               ; yet another markup language to enable
         zig                  ; C, but simpler
 
         :app
